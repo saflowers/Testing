@@ -5,4 +5,3 @@ def f(x):
 s = filter(f, range(2, 21))
 for x in s:
     print(x, end=' ')
-

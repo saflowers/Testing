@@ -1,7 +1,7 @@
 # Populate list with prime numbers
 # Since all prime numbers above 2 are odd we can omit evaluating any
 # number above that that is even.  We can therefore concentrate on
-# determining prime based on: n / (3 .. n // 3) with a step of 2
+# determining prime based on: n / (3 .. (n // 3) + 1) with a step of 2
 
 # Preload list to to simply/minimize calculation effort
 n = [0, 2]

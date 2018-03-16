@@ -4,13 +4,14 @@
 # determining prime based on: n / (3 .. n // 3) with a step of 2
 
 # Preload list to to simply/minimize calculation effort
-n = [0, 1, 2, 3, 5, 7]
+n = [0, 2]
 
-for x in range(11, 1000, 2):
-    for y in range(3, x // 3, 2):
+for x in range(1, 1000, 2):
+    for y in range(3, (x // 3) + 1, 2):
         if not x % y:
             break
     else:
         n.append(x)
-        
+
+n.sort()
 print(n)

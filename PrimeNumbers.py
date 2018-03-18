@@ -13,5 +13,4 @@ for x in range(1, 1000, 2):
     else:
         n.append(x)
 
-n.sort()
 print(n)

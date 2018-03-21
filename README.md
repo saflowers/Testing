@@ -1,4 +1,5 @@
-// Markdown language used to pretty the document
+[[comment]] # Markdown language used to pretty the document
+
 # Testing
 |Testing|the layout of|a table|
 | --- | ---:|:---:|

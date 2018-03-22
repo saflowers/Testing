@@ -1,6 +1,14 @@
 [[comment]] # Markdown language used to pretty the document
 
 # Testing
+
+```python
+def f(x):
+  print(x)
+
+f(35)
+```
+
 |Testing|the layout of|a table|
 | --- | ---:|:---:|
 |left|right|center|
